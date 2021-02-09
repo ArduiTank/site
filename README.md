@@ -19,5 +19,8 @@ Sur notre site, vous trouverez :
 * Où ça en est pour chaque domaine (réalisation, construction, développement, ...)
 * Les devlogs (les avancées du robot)
 
+## Développement
+Le site est développé en PhP avec de l'HTML5, des frameworks CC3 (bulma.io et bootstrap) ainsi qu'un peu de JS (JavaScript)
+
 ## Réseaux
 [Site](https://github.com/Tank-io/site) (Pas encore fait) - [GitHub](https://github.com/Tank-io)
