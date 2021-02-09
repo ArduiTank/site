@@ -8,6 +8,7 @@
 <a href="https://nodejs.org/">
     <image src="https://img.shields.io/badge/node--js-vX-339933.svg?logo=node.js&longCache=true">
 </a>
+<br>
 <span>Developpé avec : <image src="https://img.shields.io/badge/Visual Studio Code-vX-007ACC.svg?logo=visual-studio-code&logoColor=007ACC&longCache=true"></span>
 
 ## Informations
