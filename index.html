@@ -66,6 +66,11 @@
 		::-webkit-scrollbar-thumb {
 			background: #363636; 
 		}
+
+        div {
+            transition-property: opacity, left, top, height;
+            transition-duration: 3s, 5s;
+        }
     </style>
 </head>
 <body>
@@ -132,7 +137,7 @@
             </nav>
         </div>
     
-        <div class="hero-body background-banner" style="transition-property: opacity, left, top, height;">
+        <div class="hero-body background-banner">
             <div class="container has-text-centered">
                 <p class="title" style="color: hsl(0, 0%, 21%)!important; font-size: 5rem; padding: 10rem 0 10rem 0;">
                     ArduiTank
