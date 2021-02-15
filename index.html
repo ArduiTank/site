@@ -458,6 +458,111 @@
 		bulmaAccordion.attach();
 	</script>
 
+	<script>
+		const bulmaCollapsibleElement = new bulmaCollapsible('#to-collapse');
+
+		// Access to the bulmaCollapsible instance from DOM
+		const collapsibleElement = document.getElementById('#to-collapse');
+		if (collapsibleElement) {
+			const collapsibleInstance = collapsibleElement.bulmaCollapsible();
+		}
+	</script>
+	<script>
+		// Return an array of bulmaCollapsible instances (empty if no DOM node found)
+		const bulmaCollapsibleInstances = bulmaCollapsible.attach('.is-collapsible');
+
+		// Loop into instances
+		bulmaCollapsibleInstances.forEach(bulmaCollapsibleInstance => {
+			// Check if current state is collapsed or not
+			console.log(bulmaCollapsibleInstance.collapsed());
+		});
+	</script>
+	<script>
+		// Find DOM node from ID
+		const bulmaCollapsibleElement = document.getElementById('to-collapse');
+		if (bulmaCollapsibleElement) {
+			// Instanciate bulmaCollapsible component on the node
+			new bulmaCollapsible(bulmaCollapsibleElement);
+
+			// Call method directly on bulmaCollapsible instance registered on the node
+			bulmaCollapsibleElement.bulmaCollapsible('collapsed');
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const bulmaCollapsibleElement = document.getElementById('to-collapse');
+		if (bulmaCollapsibleElement) {
+			// Instanciate bulmaCollapsible component on the node
+			new bulmaCollapsible(bulmaCollapsibleElement);
+
+			// Call method directly on bulmaCollapsible instance registered on the node
+			bulmaCollapsibleElement.bulmaCollapsible('expand');
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const bulmaCollapsibleElement = document.getElementById('to-collapse');
+		if (bulmaCollapsibleElement) {
+			// Instanciate bulmaCollapsible component on the node
+			new bulmaCollapsible(bulmaCollapsibleElement);
+
+			// Call method directly on bulmaCollapsible instance registered on the node
+			bulmaCollapsibleElement.bulmaCollapsible('collapse');
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const CollapsibleElement = document.getElementById('to-collapse');
+		if (CollapsibleElement) {
+			// Instanciate Collapsible component on the node
+			new Collapsible(CollapsibleElement);
+
+			// Call method directly on Collapsible instance registered on the node
+			CollapsibleElement.bulmaCollapsible().on('before:expand', (e) => {
+				console.log('Before expand');
+			});
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const CollapsibleElement = document.getElementById('to-collapse');
+		if (CollapsibleElement) {
+			// Instanciate Collapsible component on the node
+			new Collapsible(CollapsibleElement);
+
+			// Call method directly on Collapsible instance registered on the node
+			CollapsibleElement.bulmaCollapsible().on('after:expand', (e) => {
+				console.log('After expand');
+			});
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const CollapsibleElement = document.getElementById('to-collapse');
+		if (CollapsibleElement) {
+			// Instanciate Collapsible component on the node
+			new Collapsible(CollapsibleElement);
+
+			// Call method directly on Collapsible instance registered on the node
+			CollapsibleElement.bulmaCollapsible().on('before:collapse', (e) => {
+				console.log('Before collapse');
+			});
+		}
+	</script>
+	<script>
+		// Find DOM node from ID
+		const CollapsibleElement = document.getElementById('to-collapse');
+		if (CollapsibleElement) {
+			// Instanciate Collapsible component on the node
+			new Collapsible(CollapsibleElement);
+
+			// Call method directly on Collapsible instance registered on the node
+			CollapsibleElement.bulmaCollapsible().on('after:collapse', (e) => {
+				console.log('After collapse');
+			});
+		}
+	</script>
+
 	<!-- Script scroll to top -->
 	<script>
 		//Get the button
