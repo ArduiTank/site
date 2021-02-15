@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr" style="overflow-y: auto;">
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>ArduiTank | Accueil</title>
+	<meta itemprop="name" content="ArduiTank | Accueil" />
+
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="./img/Logo V2.2 min.png" class="next-head">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/Logo V2.2 min.png" class="next-head">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/Logo V2.2 min.png" class="next-head">
+
+	<link rel="canonical" href="https://arduitank.be" />
+	<link rel="shortlink" href="https://arduitank.be" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" class="next-head">
+	<meta name="description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé." class="next-head">
+
+	<meta property="og:title" content="ArduiTank | Accueil" class="next-head"/>
+	<meta property="og:site_name" content="ArduiTank | Accueil" class="next-head" />
+	<meta property="og:type" content="website" class="next-head" />
+	<meta property="og:url" content="https://arduitank.be" class="next-head" />
+	<meta property="og:description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé.">
+	<meta property="og:image" content="https://arduitank.be/img/banner.png" class="next-head">
+
+	<meta name="twitter:card" content="summary_large_image" class="next-head" />
+	<meta name="twitter:title" content="ArduiTank | Accueil" class="next-head" />
+	<meta name="twitter:url" content="https://arduitank.be" />
+	<meta name="twitter:description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé." class="next-head">
+	<meta name="twitter:creator" content="@ArduiTank" class="next-head">
+	<meta name="twitter:image:src" content="https://arduitank.be/img/banner.png" class="next-head">
+
+	<meta name="dcterms.title" content="ArduiTank | Accueil" class="next-head" />
+	<meta name="dcterms.type" content="Text" class="next-head" />
+	<meta name="dcterms.format" content="text/html" class="next-head" />
+	<meta name="dcterms.identifier" content="https://arduitank.be" class="next-head" />
+	<meta name="dcterms.description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé." class="next-head">
+	
+	<!-- Bulma Version 0.7.4-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
+	
+	<!-- Bootstrap Version 5.0.0 beta 1 -->
+	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">-->
+
+	<!-- Fonts | Emotes -->
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+	<style>
+		/* Scrollbar */
+		::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		::-webkit-scrollbar-track {
+			background: #f5f5f5; 
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: #545454; 
+		}
+
+		/* Button Up */
+		#scroll_to_top {
+			display: none;
+			position: fixed;
+			bottom: 50px;
+			right: 30px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: rgba(255, 255, 255, 0.5);
+			color: white;
+			cursor: pointer;
+			padding: 5px;
+			border-radius: 4px;
+		}
+
+		#scroll_to_top button {
+			width: 25px;
+		}
+
+		#scroll_to_top:hover {
+			background-color: rgba(255, 255, 255, 0.8);
+		}
+
+
+
+
+		div {
+			transition-property: opacity, left, top, height;
+			transition-duration: 3s, 5s;
+		}
+	</style>
+
+	<!-- Accordion -->
+	<style>
+		.collapsible {
+			background-color: #777;
+			color: white;
+			cursor: pointer;
+			padding: 18px;
+			width: 100%;
+			border: none;
+			text-align: left;
+			outline: none;
+			font-size: 1.5rem;
+		}
+		
+		.active, .collapsible:hover {
+			background-color: #555;
+		}
+		
+		.collapsible:after {
+			content: '\02C5';
+			color: white;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+		}
+
+		.active:after {
+			content: "\02C4";
+		}
+
+		.content.collapse {
+			padding: 0 18px;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 1s ease-out;
+			background-color: #1d1d1d;
+		}
+	</style>
+
+    <!-- Parallax -->
+	<style>
+		body {
+			width: 100vw;
+			height: 100vh;
+			overflow-x: hidden;
+			overflow-y: auto;
+			perspective: 1px;
+			-webkit-perspective: 1px;
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+		}
+
+		div.parallax {
+			width: 100vw;
+			height: 100vh;
+			position: relative;
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+		}
+
+		div.parallax:after {
+			background-image: url(http://arduitank.be/img/banner.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			z-index: -1;
+			content: "";
+			transform: translateZ(-1px) scale(2);
+			-webkit-transform: translateZ(-1px) scale(2);
+		}
+
+		/*.background-banner {
+			
+			background-image: url(http://arduitank.be/img/banner.png);
+
+			
+			min-height: 500px; 
+
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}*/
+    </style>
+</head>
+<body>
+	<section class="hero is-dark is-fullheight">
+		<div class="hero-head">
+			<nav class="navbar" role="navigation" aria-label="main navigation">
+				<div class="container">
+					<div class="navbar-brand">
+						<a class="navbar-item" href="./">
+							<img src="./img/Logo V2.2 min.png" width="50" style="max-height: 100%;">
+						</a>
+			
+						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+			
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-start">
+							<a class="navbar-item" href="./">
+								Accueil
+							</a>
+							<a class="navbar-item" href="./#information">
+								Information
+							</a>
+							<a class="navbar-item" href="./#equipe">
+								Équipe
+							</a>
+							<a class="navbar-item" href="./#actu">
+								Actualités
+							</a>
+							<a class="navbar-item" href="./#galerie">
+								Galerie
+							</a>
+							<a class="navbar-item" href="./#stats">
+								Statistiques
+							</a>
+							<a class="navbar-item" href="./#contact">
+								Contact
+							</a>
+						</div>
+						<!---
+						<div class="navbar-end">
+							<div class="navbar-item">
+								<div class="buttons">
+									<a class="button is-primary">
+										<strong>Sign up</strong>
+									</a>
+									<a class="button is-light">
+										Log in
+									</a>
+								</div>
+							</div>
+						</div>
+						-->
+					</div>
+				</div>
+			</nav>
+		</div>
+	
+		<div class="hero-body background-banner parallax">
+			<!--<div class="container has-text-centered">
+				<p class="title" style="color: hsl(0, 0%, 21%)!important; font-size: 5rem; padding: 10rem 0 10rem 0;">
+					ArduiTank
+				</p>
+			</div>-->
+			<div class="container">
+				<center>
+					<img src="./img/logo V2.2.png">
+				</center>
+			</div>
+		</div>
+
+		<div class="hero-body">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Information
+				</p>
+				<div class="content is-large">
+					<h1 class="is-white">Hello World</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+					<h2 class="is-white">Second level</h2>
+					<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+					<ul>
+						<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+						<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+						<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+						<li>Ut non enim metus.</li>
+					</ul>
+				</div>
+				<progress class="progress" value="15" max="100">15%</progress>
+			</div>
+		</div>
+
+		<div class="hero-body background-banner" style="padding: 10rem 0 10rem 0;">
+		</div>
+		
+		<div class="hero-body" id="equipe">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Equipe
+				</p>
+				<br/>
+				<br/>
+				<div class="columns">
+					<div class="column">
+						<center style="margin-bottom: 1rem;">
+							<figure class="image is-64x64">
+								<img src="https://cdn.discordapp.com/avatars/484726990344028162/6269c54783100b73676ba7f7634f7505.png" class="image is-64x64 is-rounded">
+							</figure>
+							<br/>
+							<p class="title is-5" style="font-weight: normal;">
+								Davide
+							</p>
+						</center>
+					</div>
+					<div class="column">
+						<center style="margin-bottom: 1rem;">
+							<figure class="image is-64x64">
+								<img src="https://cdn.discordapp.com/avatars/693118212711251968/78931dd3534414a3cd6520dca925d1eb.png" class="image is-64x64 is-rounded">
+							</figure>
+							<br/>
+							<p class="title is-5" style="font-weight: normal;">
+								Ugo
+							</p>
+						</center>
+					</div>
+					<div class="column">
+						<center style="margin-bottom: 1rem;">
+							<figure class="image is-64x64">
+								<img src="https://cdn.discordapp.com/avatars/474326204808298506/09dd121b2c1881ceae6bdc56cddfc47f.png" class="image is-64x64 is-rounded">
+							</figure>
+							<br/>
+							<p class="title is-5" style="font-weight: normal;">
+								Antonin
+							</p>
+						</center>
+					</div>
+					<div class="column">
+						<center style="margin-bottom: 1rem;">
+							<figure class="image is-64x64">
+								<img src="https://cdn.discordapp.com/avatars/673832628021100574/fdf203b53f00217309ba0009cd6bdf54.png" class="image is-64x64 is-rounded">
+							</figure>
+							<br/>
+							<p class="title is-5" style="font-weight: normal;">
+								Colin
+							</p>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-body background-banner" style="padding: 10rem 0 10rem 0;">
+		</div>
+		
+		<div class="hero-body" id="actu">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Actualités
+				</p>
+				<div class="content is-large">
+					<p>Dans cette section, vous pouvez admirer l'avancée du projet !</p>
+					<p>Vous pouvez voir toutes les étapes à la réalisation du robot.</p>
+				</div>
+				<button type="button" class="collapsible">10/02/2021 - Nom de domaine</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">C'est ce jour que nous avons acheté artuitank.be chez <a href="https://www.ovh.com/fr/order/webcloud/#/webCloud/domain/select?selection=~()&search=arduitank.be" target="_blank">OVH</a>.</p>
+					<p style="padding: 0 18px 1rem 18px;">Nous avons donc activé l'hébergement lié avec l'offre.</p>
+				</div>
+				<button type="button" class="collapsible">10/02/2021 - Reconnaissance vocal</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">C'est ce jour que nous avons acheté artuitank.be chez <a href="https://www.ovh.com/fr/order/webcloud/#/webCloud/domain/select?selection=~()&search=arduitank.be" target="_blank">OVH</a>.</p>
+					<p style="padding: 0 18px 1rem 18px;">Nous avons donc activé l'hébergement lié avec l'offre.</p>
+				</div>
+				<button type="button" class="collapsible">Open Section 2</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px 1rem 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<button type="button" class="collapsible">Open Section 3</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p style="padding: 0 18px 1rem 18px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-body background-banner" style="padding: 10rem 0 10rem 0;">
+		</div>
+		
+		<div class="hero-body" id="galerie">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Galerie
+				</p>
+				<div class="content is-large">
+					<h1 class="is-white">Hello World</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+					<h2 class="is-white">Second level</h2>
+					<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+					<ul>
+						<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+						<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+						<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+						<li>Ut non enim metus.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-body background-banner" style="padding: 10rem 0 10rem 0;">
+		</div>
+		
+		<div class="hero-body" id="stats">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Statistiques
+				</p>
+				<div class="content is-large">
+					<h1 class="is-white">Hello World</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+					<h2 class="is-white">Second level</h2>
+					<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+					<ul>
+						<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+						<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+						<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+						<li>Ut non enim metus.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="hero-body background-banner" style="padding: 10rem 0 10rem 0;">
+		</div>
+		
+		<div class="hero-body" id="contact">
+			<div class="container">
+				<p class="title has-text-centered" id="information">
+				  Contact
+				</p>
+				<div class="content is-large">
+					<h1 class="is-white">Hello World</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+					<h2 class="is-white">Second level</h2>
+					<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+					<ul>
+						<li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
+						<li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
+						<li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
+						<li>Ut non enim metus.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<button onclick="topFunction()" id="scroll_to_top" title="Go to top">
+		<i class="fas fa-arrow-circle-up" alt="Retourner en haut" style="width: 40px; height: 40px;">		
+		</i>
+	</button>
+
+	<!-- Script Navbar --> 
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', () => {
+	
+			// Get all "navbar-burger" elements
+			const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+	
+			// Check if there are any navbar burgers
+			if ($navbarBurgers.length > 0) {
+	
+				// Add a click event on each of them
+				$navbarBurgers.forEach( el => {
+					el.addEventListener('click', () => {
+	
+						// Get the target from the "data-target" attribute
+						const target = el.dataset.target;
+						const $target = document.getElementById(target);
+	
+						// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+						el.classList.toggle('is-active');
+						$target.classList.toggle('is-active');
+	
+					});
+				});
+			}
+		});
+	</script>
+
+	<!-- Script for Collapse -->
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+		  coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.maxHeight){
+			  content.style.maxHeight = null;
+			} else {
+			  content.style.maxHeight = content.scrollHeight + "px";
+			} 
+		  });
+		}
+	</script>
+
+	<!-- Script scroll to top -->
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("scroll_to_top");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>
