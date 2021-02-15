@@ -302,49 +302,17 @@
 						</div>
 					</article>
 				</section>
-				<div id="to-collapse">
-					<article class="message">
-						<div class="message-header">
-							<p>Question 1 <a href="#collapsible-message-accordion-1" data-action="collapse">Collapse/Expand</a></p>
-						</div>
-						<div id="collapsible-message-accordion-1" class="message-body is-collapsible" data-parent="to-collapse">
-							<div class="message-body-content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-								placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-								<a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-								sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-								sem eget, facilisis sodales sem.
-							</div>
-						</div>
-					</article>
-					<article class="message">
-						<div class="message-header">
-							<p>Question 2 <a href="#collapsible-message-accordion-2" data-action="collapse">Collapse/Expand</a></p>
-						</div>
-						<div id="collapsible-message-accordion-2" class="message-body is-collapsible" data-parent="to-collapse">
-							<div class="message-body-content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-								placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-								<a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-								sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-								sem eget, facilisis sodales sem.
-							</div>
-						</div>
-					</article>
-					<article class="message">
-						<div class="message-header">
-							<p>Question 3 <a href="#collapsible-message-accordion-3" data-action="collapse">Collapse/Expand</a></p>
-						</div>
-						<div id="collapsible-message-accordion-3" class="message-body is-collapsible" data-parent="to-collapse">
-							<div class="message-body-content">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-								placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-								<a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-								sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-								sem eget, facilisis sodales sem.
-							</div>
-						</div>
-					</article>
+				<button type="button" class="collapsible">Open Section 1</button>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<button type="button" class="collapsible">Open Section 2</button>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<button type="button" class="collapsible">Open Section 3</button>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
 			</div>
 		</div>
@@ -459,109 +427,22 @@
 	</script>
 
 	<script>
-		const bulmaCollapsibleElement = new bulmaCollapsible('#to-collapse');
-
-		// Access to the bulmaCollapsible instance from DOM
-		const collapsibleElement = document.getElementById('#to-collapse');
-		if (collapsibleElement) {
-			const collapsibleInstance = collapsibleElement.bulmaCollapsible();
-		}
-	</script>
-	<script>
-		// Return an array of bulmaCollapsible instances (empty if no DOM node found)
-		const bulmaCollapsibleInstances = bulmaCollapsible.attach('.is-collapsible');
-
-		// Loop into instances
-		bulmaCollapsibleInstances.forEach(bulmaCollapsibleInstance => {
-			// Check if current state is collapsed or not
-			console.log(bulmaCollapsibleInstance.collapsed());
-		});
-	</script>
-	<script>
-		// Find DOM node from ID
-		const bulmaCollapsibleElement = document.getElementById('to-collapse');
-		if (bulmaCollapsibleElement) {
-			// Instanciate bulmaCollapsible component on the node
-			new bulmaCollapsible(bulmaCollapsibleElement);
-
-			// Call method directly on bulmaCollapsible instance registered on the node
-			bulmaCollapsibleElement.bulmaCollapsible('collapsed');
-		}
-	</script>
-	<script>
-		// Find DOM node from ID
-		const bulmaCollapsibleElement = document.getElementById('to-collapse');
-		if (bulmaCollapsibleElement) {
-			// Instanciate bulmaCollapsible component on the node
-			new bulmaCollapsible(bulmaCollapsibleElement);
-
-			// Call method directly on bulmaCollapsible instance registered on the node
-			bulmaCollapsibleElement.bulmaCollapsible('expand');
-		}
-	</script>
-	<script>
-		// Find DOM node from ID
-		const bulmaCollapsibleElement = document.getElementById('to-collapse');
-		if (bulmaCollapsibleElement) {
-			// Instanciate bulmaCollapsible component on the node
-			new bulmaCollapsible(bulmaCollapsibleElement);
-
-			// Call method directly on bulmaCollapsible instance registered on the node
-			bulmaCollapsibleElement.bulmaCollapsible('collapse');
-		}
-	</script>
-	<script>
-		// Find DOM node from ID
-		const CollapsibleElement = document.getElementById('to-collapse');
-		if (CollapsibleElement) {
-			// Instanciate Collapsible component on the node
-			new Collapsible(CollapsibleElement);
-
-			// Call method directly on Collapsible instance registered on the node
-			CollapsibleElement.bulmaCollapsible().on('before:expand', (e) => {
-				console.log('Before expand');
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
 			});
 		}
 	</script>
-	<script>
-		// Find DOM node from ID
-		const CollapsibleElement = document.getElementById('to-collapse');
-		if (CollapsibleElement) {
-			// Instanciate Collapsible component on the node
-			new Collapsible(CollapsibleElement);
-
-			// Call method directly on Collapsible instance registered on the node
-			CollapsibleElement.bulmaCollapsible().on('after:expand', (e) => {
-				console.log('After expand');
-			});
-		}
-	</script>
-	<script>
-		// Find DOM node from ID
-		const CollapsibleElement = document.getElementById('to-collapse');
-		if (CollapsibleElement) {
-			// Instanciate Collapsible component on the node
-			new Collapsible(CollapsibleElement);
-
-			// Call method directly on Collapsible instance registered on the node
-			CollapsibleElement.bulmaCollapsible().on('before:collapse', (e) => {
-				console.log('Before collapse');
-			});
-		}
-	</script>
-	<script>
-		// Find DOM node from ID
-		const CollapsibleElement = document.getElementById('to-collapse');
-		if (CollapsibleElement) {
-			// Instanciate Collapsible component on the node
-			new Collapsible(CollapsibleElement);
-
-			// Call method directly on Collapsible instance registered on the node
-			CollapsibleElement.bulmaCollapsible().on('after:collapse', (e) => {
-				console.log('After collapse');
-			});
-		}
-	</script>
+	
 
 	<!-- Script scroll to top -->
 	<script>
