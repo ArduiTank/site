@@ -183,7 +183,7 @@
 			font-size: 1.5rem;
 			border-radius: 20px;
 			transition-duration: 1s;
-			transition-delay: 0.9s;
+			/*transition-delay: 0.9s;*/
 		}
 		
 		.collapsible.active, .collapsible:hover {
@@ -1042,8 +1042,10 @@
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				mybutton.style.display = "block";
+				mybutton.style.ransitionDelay = "0s";
 			} else {
 				mybutton.style.display = "none";
+				mybutton.style.ransitionDeley = "0.9s";
 			}
 		}
 
