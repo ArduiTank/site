@@ -220,15 +220,16 @@
 		}
 
 		.collapsible:after {
-			content: '\02C5';
-			color: white;
+			content: "❮";
+			color: #00b89c;
 			font-weight: bold;
 			float: right;
 			margin-left: 5px;
+			-webkit-transform: rotate(-90deg);
+			transform: rotate(-90deg);
 		}
 
 		.active:after {
-			content: "❮";
 			-webkit-transform: rotate(90deg);
 			transform: rotate(90deg);
 		}
