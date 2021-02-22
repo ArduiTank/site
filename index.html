@@ -1007,10 +1007,10 @@
 			var content = this.nextElementSibling;
 			if (content.style.maxHeight){
 				content.style.maxHeight = null;
-				sleep(1000).then(() => {
+				setTimeout(() => {
 					this.style.transitionDelay = "0.9s";
 					this.style.transitionDuration = "1s";
-				});
+				}, 2000);
 			} else {
 				content.style.maxHeight = content.scrollHeight + "px";
 				this.style.transitionDelay = "0s";
