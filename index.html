@@ -1018,7 +1018,7 @@
 		}
 	</script>
 
-	<!-- Script scroll to top -->
+	<!-- Script scroll to top & Background navbar -->
 	<script>
 		//Get the button
 		var mybutton = document.getElementById("scroll_to_top");
@@ -1032,6 +1032,7 @@
 			} else {
 				mybutton.style.display = "none";
 			}
+			// Change background navbar
 			if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060) {
 				document.getElementById("navbarid").style.backgroundColor = "rgba(84, 84, 84, 0.75)";
 			} else {
