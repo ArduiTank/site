@@ -1011,10 +1011,8 @@
 				this.style.transitionDuration = "1s";
 			} else {
 				content.style.maxHeight = content.scrollHeight + "px";
-				setTimeout(() => {
-					this.style.transitionDelay = "0s";
-					this.style.transitionDuration = "0s";
-				}, 2000);
+				this.style.transitionDelay = "0s";
+				this.style.transitionDuration = "0s";
 			}
 		  });
 		}
