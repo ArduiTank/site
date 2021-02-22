@@ -976,24 +976,40 @@
 	<!-- Transparent navbar -->
 	<script>
 		// Get navbar
-		var navbarEl = document.getElementById("navbarid");
+	//	var navbarEl = document.getElementById("navbarid");
 
 		// When the user scrolls down 1060px from the top of the document, show the button
-		window.onscroll = function() {scrollFunctionNav()};
+	//	window.onscroll = function() {scrollFunctionNav()};
 
-		function scrollFunctionNav() {
+	//	function scrollFunctionNav() {
 			/*console.log(document.body.scrollTop);
 			console.log(document.documentElement.scrollTop);
 			console.log("---------------");*/
-			if (document.body.scrollTop > 20) {
+	//		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				//navbarEl.style.backgroundColor = "rgba(84, 84, 84, 0.8)";
-				document.getElementById("navbarid").style.backgroundColor = "green";
+	//			document.getElementById("navbarid").style.backgroundColor = "green";
 				//alert(document.getElementById("navbarid"));
-			} else {
+	//		} else {
 				//navbarEl.style.backgroundColor = "rgba(84, 84, 84, 1)";
+	//			document.getElementById("navbarid").style.backgroundColor = "red";
+	//		}
+	//	}
+		//Get the scroll button
+		var mybutton = document.getElementById("scroll_to_top");
+		// Get navbar
+		var navbarEl = document.getElementById("navbarid");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunctionNav()};
+
+		function scrollFunctionNav() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("navbarid").style.backgroundColor = "green";
+			} else {
 				document.getElementById("navbarid").style.backgroundColor = "red";
 			}
 		}
+
 	</script>
 
 	<!-- Script for Collapse -->
