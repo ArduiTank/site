@@ -94,9 +94,10 @@
 		}
 
 		/* Colors */
-		/*nav.navbar {
-			background-color: rgba(84, 84, 84, 1)!important;
-		}*/
+		nav.navbar {
+			/*background-color: rgba(84, 84, 84, 1)!important;*/
+			transition: 1s ease-out;
+		}
 		.navbar-dropdown {
 			background-color: rgba(74, 74, 74, 0.9);
 		}
@@ -208,8 +209,6 @@
 			outline: none;
 			font-size: 1.5rem;
 			border-radius: 20px;
-			/*transition-duration: 1s;*/
-			/*transition-delay: 0s;*/ /* 0.9s */
 		}
 		
 		.collapsible.active, .collapsible:hover {
@@ -248,7 +247,7 @@
 <body>
 	<section class="hero is-dark is-fullheight">
 		<div class="hero-head">
-			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid" style="background-color: rgba(84, 84, 84, 1);">
+			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid" style="background-color: rgba(54, 54, 54, 1);">
 				<div class="container">
 					<div class="navbar-brand">
 						<a class="navbar-item" href="./">
@@ -1040,7 +1039,7 @@
 			if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060) {
 				document.getElementById("navbarid").style.backgroundColor = "rgba(84, 84, 84, 0.75)";
 			} else {
-				document.getElementById("navbarid").style.backgroundColor = "rgba(84, 84, 84, 1)";
+				document.getElementById("navbarid").style.backgroundColor = "rgba(54, 54, 54, 1)";
 			}
 		}
 
