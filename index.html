@@ -248,7 +248,7 @@
 <body>
 	<section class="hero is-dark is-fullheight">
 		<div class="hero-head">
-			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="nav">
+			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid">
 				<div class="container">
 					<div class="navbar-brand">
 						<a class="navbar-item" href="./">
@@ -976,16 +976,16 @@
 	<!-- Transparent navbar -->
 	<script>
 		// Get navbar
-		var navbar = document.getElementById("nav");
+		var navbarEl = document.getElementById("navbarid");
 
 		// When the user scrolls down 1060px from the top of the document, show the button
 		window.onscroll = function() {scrollFunctionNav()};
 
 		function scrollFunctionNav() {
 			if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060) {
-				navbar.style.backgroundColor = "rgba(84, 84, 84, 0.8)";
+				navbarEl.style.backgroundColor = "rgba(84, 84, 84, 0.8)";
 			} else {
-				navbar.style.backgroundColor = "rgba(84, 84, 84, 1)";
+				navbarEl.style.backgroundColor = "rgba(84, 84, 84, 1)";
 			}
 		}
 	</script>
