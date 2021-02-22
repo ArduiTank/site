@@ -773,17 +773,31 @@
 		</div>
 		
 		<div class="hero-body" id="stats">
-			
+			<div class="container">
+				<p class="title is-1 has-text-centered" id="information">
+					Statistiques
+				</p>
+			</div>
 			<div class = "container">
 				<table class = "table is-bordered">
 					<thead>
 						<tr>
-							<th>Position</th>
-							<th>Name</th>
-							<th>Country</th>
+							<th>Joueurs</th>
+							<th><abbr title="Nombre de pas du moteur">Moteur</abbr></th>
+							<th><abbr title="Tirs qui ont atteint la cible">Tirs touché</abbr></th>
+							<th><abbr title="Tirs qui est dans le vide">Tirs dans l'eau</abbr></th>
+							<th><abbr title="Total nombre de tirs">Tirs globaux</abbr></th>
 						</tr>
 					</thead>
-					
+					<tfoot>
+						<tr>
+							<th>Joueurs</th>
+							<th><abbr title="Nombre de pas du moteur">Moteur</abbr></th>
+							<th><abbr title="Tirs qui ont atteint la cible">Tirs touché</abbr></th>
+							<th><abbr title="Tirs qui est dans le vide">Tirs dans l'eau</abbr></th>
+							<th><abbr title="Total nombre de tirs">Tirs globaux</abbr></th>
+						</tr>
+					</tfoot>
 					<tfoot>
 						<tr>
 							<th>
@@ -797,20 +811,40 @@
 					</tfoot>
 					
 					<tbody>
+						<tr class="is-selected">
+							<th>Global</th>
+							<td>1500</td>
+							<td>10</td>
+							<td>50</td>
+							<td>60</td>
+						</tr>
 						<tr>
+							<th>Antonin</th>
+							<td>500</td>
 							<td>1</td>
-							<td>Sachin</td>
-							<td>India</td>
+							<td>20</td>
+							<td>6</td>
 						</tr>
 						<tr>
+							<th>Davide</th>
+							<td>500</td>
+							<td>6</td>
 							<td>2</td>
-							<td>Smith</td>
-							<td>Australia</td>
+							<td>8</td>
 						</tr>
 						<tr>
-							<td>3</td>
-							<td>Joe Root</td>
-							<td>England</td>
+							<th>Ugo</th>
+							<td>300</td>
+							<td>2</td>
+							<td>13</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<th>Colin</th>
+							<td>200</td>
+							<td>1</td>
+							<td>15</td>
+							<td>16</td>
 						</tr>
 					</tbody>
 				</table>
