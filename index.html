@@ -1009,6 +1009,10 @@
 				content.style.maxHeight = null;
 				this.style.transitionDelay = "0.9s";
 				this.style.transitionDuration = "1s";
+				setTimeout(() => {
+					this.style.transitionDelay = "0s";
+					this.style.transitionDuration = "0s";
+				}, 1000);
 			} else {
 				content.style.maxHeight = content.scrollHeight + "px";
 				this.style.transitionDelay = "0s";
