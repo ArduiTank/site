@@ -872,13 +872,13 @@
 			this.classList.toggle("active");
 			var content = this.nextElementSibling;
 			if (content.style.maxHeight){
-			  content.style.maxHeight = null;
-			  this.style.transitionDelay = "0.9s";
-			  this.style.transitionDuration = "1s";
+				content.style.maxHeight = null;
+				this.style.transitionDelay = "0s";
+				this.style.transitionDuration = "0s";
 			} else {
-			  content.style.maxHeight = content.scrollHeight + "px";
-			  this.style.transitionDelay = "0s";
-			  this.style.transitionDuration = "0s";
+				content.style.maxHeight = content.scrollHeight + "px";
+				this.style.transitionDelay = "0.9s";
+				this.style.transitionDuration = "1s";
 			}
 		  });
 		}
