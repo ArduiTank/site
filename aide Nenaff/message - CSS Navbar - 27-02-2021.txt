@@ -1,0 +1,103 @@
+
+	<style>
+		/* Image for background */
+		.background-banner {
+			/* Set a specific height */
+			min-height: 500px;
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/* Space above and under the picture*/
+			padding: 10rem 0;
+		}
+		.background-2Dplan-robot {
+			/* The image used */
+			background-image: url(img/banner.png);
+		}
+		.background-model3D-chain {
+			/* The image used */
+			background-image: url(attachments/807610088361164810/812692985631735839/img_20210220_152752.jpg);
+		}
+		.background-blank-1chain {
+			/* The image user */
+			background-image: url(attachments/501009071365685249/812846520377933844/img_20210220_213332.jpg);
+		}
+		.background-2blanks-1chain {
+			/* The image used */
+			background-image: url(attachments/807610088361164810/812778846465949696/img_20210220_211229.jpg);
+		}
+		.background-2blanks-board {
+			/* The image used */
+			background-image: url(attachments/807610088361164810/813182685450338346/img_20210221_235425.jpg);
+		}
+		.background-2blanks-board-chain {
+			/* The image used */
+			background-image: url(attachments/807610088361164810/813182755088236544/img_20210221_235529.jpg);
+		}
+		.background-2blanks-board-reverse {
+			/* The image used */
+			background-image: url(attachments/807610088361164810/813182836126253116/img_20210221_235648.jpg);
+		}
+		/* Colors */
+		nav.navbar {
+			/*background-color: rgba(84, 84, 84, 1)!important;*/
+			transition: 0.8s ease-out;
+		}
+		.navbar-dropdown {
+			background-color: rgba(74, 74, 74, 0.9);
+		}
+		.navbar-link {
+			color: rgba(245,245,245,1)!important;
+		}
+		.navbar-item.has-dropdown:hover .navbar-link {
+			background-color: #363636;
+		}
+		.dropdown-menu.drop2 a:hover {
+			color: gray;
+		}
+		.dropdown-menu.drop2 a {
+			color: white;
+		}
+		.dropdown-menu.drop2 {
+			background-color: #545454;
+			margin-left: 150px;
+			margin-top: -44px;
+		}
+		.navbar-link:not(.is-arrowless)::after {
+			border-color: #00b89c;
+		}
+		.content h1, .content h3, .content h5 {
+			color: white;
+		}
+		.progress.is-arduino1::-webkit-progress-value {
+			background-color: rgb(0, 129, 132);
+		}
+		.progress.is-arduino2::-webkit-progress-value {
+			background-color: rgb(23, 161, 165);
+		}
+		/*.hero.is-dark a:not(.navbar) {
+			color: #3273dc!important;
+		}
+		.hero.is-dark a:hover:not(.navbar) {
+			color: white!important;
+		}*/
+		.label {
+			color: white;
+		}
+		p a.is-link {
+			color: #3273dc!important;
+		}
+		p a.is-link:hover {
+			color: #363636!important;
+		}
+		.hero-foot {
+			background-color: #545454;
+		}
+		/* Layout */
+		div {
+			transition-property: opacity, left, top, height;
+			transition-duration: 3s, 5s;
+		}
+	</style>
