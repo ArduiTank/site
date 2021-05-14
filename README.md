@@ -27,4 +27,4 @@ Sur notre site, vous trouverez :
 Le site est développé en PhP avec de l'HTML5, des frameworks CC3 (bulma.io et bootstrap) ainsi qu'un peu de JS (JavaScript)
 
 ## Réseaux
-[Site](https://arduitank.be) - [GitHub](https://github.com/Tank-io)
+[Site](https://arduitank.be) - [GitHub](https://github.com/ArduiTank)
