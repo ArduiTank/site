@@ -302,23 +302,23 @@
 					<p>Nous avons un projet ambitieux ! Nous sommes motivés !</p>
 					<p>Pour savoir un peu où nous en sommes :</p>
 					<h5>Arduino (tous) :</h5>
-					<progress class="progress is-arduino1" style="height: 1.5rem;" value="80" max="100">80%</progress>
+					<progress class="progress is-arduino1" style="height: 1.5rem;" value="95" max="100">95%</progress>
 					<div class="columns is-mobile">
 						<div class="column is-half-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd">
 							<p>Robot :</p>
 						</div>
-						<div class="column"><progress class="progress is-arduino2" value="80" max="100">80%</progress></div>
+						<div class="column"><progress class="progress is-arduino2" value="95" max="100">95%</progress></div>
 					</div>
 					<div class="columns is-mobile">
 						<div class="column is-half-mobile is-3-tablet is-2-desktop is-2-widescreen is-2-fullhd">
 							<p>Télécommande :</p>
 						</div>
-						<div class="column"><progress class="progress is-arduino2" value="80" max="100">80%</progress></div>
+						<div class="column"><progress class="progress is-arduino2" value="95" max="100">95%</progress></div>
 					</div>
 					<h5>Application (Davide et Ugo) :</h5>
-					<progress class="progress" style="height: 1.5rem;" value="30" max="100">30%</progress>
+					<progress class="progress" style="height: 1.5rem;" value="50" max="100">50%</progress>
 					<h5>Site (Antonin) :</h5>
-					<progress class="progress is-info" style="height: 1.5rem;" value="35" max="100">35%</progress>
+					<progress class="progress is-info" style="height: 1.5rem;" value="85" max="100">85%</progress>
 				</div>
 			</div>
 		</div>
