@@ -1,4 +1,10 @@
 <?php
+	if(isset($_POST["name"] == '' || isset($_POST["email"] == '' || isset($_POST["message"]) == '') {
+		?>
+			<script type="text/javascript">alert("Missing information !");</script>
+		<?php	
+		die();
+	}
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	if(!isset($_POST["subject"]) == '') {
