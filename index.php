@@ -1747,7 +1747,7 @@
 					<p class="subtitle is-8">Par mail : <a class="button" href="mailto:info@arduitank.be">Cliquez ici</a></p>
 				</div>
 				<p class="subtitle is-3 has-text-centered has-text-danger">Formulaire de contact encore non fonctionnel</p>
-				<form class="form" action="index.php" method="post">
+				<form class="form" action="include/formulaire.php" method="post">
 					<div class="field is-horizontal">
 						<div class="field-label is-normal">
 							<label class="label">Nom</label>
@@ -1823,10 +1823,6 @@
 				</form>
 			</div>
 		</div>
-		<?php
-			include("include/formulaire.php");
-		?>
-
 		<?php
 			include("include/footer.php");
 		?>
