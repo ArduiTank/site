@@ -1,7 +1,7 @@
 <?php
 	$name = $_POST['name'];
 	$email = $_POST['email'];
-	if(isset($_POST["subject"]) == '') {
+	if(!isset($_POST["subject"]) == '') {
 		$subject = $_POST['subject'];
 	}
 	$message = $_POST['message'];
