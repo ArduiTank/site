@@ -280,6 +280,14 @@
 					Informations
 				</h1>
 				<div class="content is-large">
+					<h3>Attention !!!</h3>
+					<p>Les images du site (l'aperçu) prendra une autre tournure le 28/05/2021 à minuit précisément !</p>
+					<p class="counter">Soit dans : 
+						<span class="h"></span> h
+						<span class="m"></span> m
+						<span class="s"></span> s
+					</p>
+					<p>Pensez à rafraichir le site au moment voulu !</p>
 					<h3>Qui sommes-nous ?</h3>
 					<p>Nous sommes en 2ème année en école supérieure en automatisation. Dans le cadre du cours de robotique, nous avons décidé de faire un tank télécommandé.</p>
 					<p>Nous ne nous limitons pas qu'à la programmation en C/C++ (Arduino) comme demandé, en effet nous développons aussi une application pour ordinateur ainsi que le site sur lequel vous vous trouvez actuellement.</p>
@@ -1935,6 +1943,39 @@
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
 		}
+	</script>
+
+	<script  type="text/javascript">
+		var target = new Date(2021, 06, 28, 0, 0, 0);
+		var flag = 1;
+		function update() {
+			var now = new Date();
+			if (now.getTime() < target.getTime()) {
+				var diff = Math.floor((target.getTime() - now.getTime())/1000);
+
+				var seconds = diff % 60;
+				var minutes = Math.floor(diff%3600 / 60);
+				var hours = Math.floor(diff%86400 / 3600);
+				
+				$('.counter .h').html(hours<10?"0"+hours:hours);
+				$('.counter .m').html(minutes<10?"0"+minutes:minutes);
+				$('.counter .s').html(seconds<10?"0"+seconds:seconds);
+				$('.counter').html();
+			}
+			else {
+				if (flag == 1) {
+					/*$('.vid').html("<video src=\"https://dfcevent.com/wp-content/uploads/DFC%202020.mp4\" width=\"80%\" height=\"80%\" controls controlsList=\"nodownload\" poster=\"https://dfcevent.com/wp-content/uploads/2020/03/IMG_1099.jpg\"><img src=\"https://dfcevent.com/wp-content/uploads/2020/03/IMG_1099.jpg\" width=\"80%\" height=\"80%\"></video>");
+					$('.counter').html("");*/
+					flag = 0;
+				}
+
+			}
+		};
+		$(document).ready(function() {
+			window.setInterval(update, 1000);
+			update();
+		});
+
 	</script>
 </body>
 </html>
