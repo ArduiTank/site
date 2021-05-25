@@ -1,7 +1,7 @@
 <?php
 	if(isset($_POST["name"] || isset($_POST["email"] || isset($_POST["message"]) == '') {
 		?>
-			alert("Missing information !");
+			<script type="text/javascript">alert("Missing information !");</script>
 		<?php	
 		die();
 	}
