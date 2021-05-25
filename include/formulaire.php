@@ -17,10 +17,10 @@
 		// Embeds Array
 		"embeds" => [
 			[
-				"title" => "Nouveau formulaire",
+				"title" => "$subject",
 	
 				"type" => "rich",
-				"timestamp" => $subject,
+				"timestamp" => $timestamp,
 				"color" => hexdec( "3e66ff" ),
 	
 				// Footer
