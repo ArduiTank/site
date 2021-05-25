@@ -1746,7 +1746,6 @@
 				<div class="content is-large has-text-centered">
 					<p class="subtitle is-8">Par mail : <a class="button" href="mailto:info@arduitank.be">Cliquez ici</a></p>
 				</div>
-				<p class="subtitle is-3 has-text-centered has-text-danger">Formulaire de contact encore non fonctionnel</p>
 				<form class="form" action="include/formulaire.php" method="post">
 					<div class="field is-horizontal">
 						<div class="field-label is-normal">
@@ -1800,7 +1799,7 @@
 						<div class="field-body">
 							<div class="field">
 								<div class="control">
-									<textarea class="textarea is-danger" placeholder="Dites nous ce qui vous chagrine ;)" name="message" required></textarea>
+									<textarea class="textarea is-danger" placeholder="Dites nous ce qui vous chagrine ;) (Max 2000 caractères)" name="message" required></textarea>
 								</div>
 							</div>
 						</div>
