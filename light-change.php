@@ -1,11 +1,11 @@
 <?php
 	require "connection.php";
-	if(!isset($_GET["name"]) == '') {
+	if(isset($_GET["name"]) == '') {
 		echo "Debug1";
 	}
 	else {
 		echo "Debug2";
-        if(!isset($_GET["name"])) {
+        if(isset($_GET["name"])) {
             $name1 = $_GET["name"];
         }
 
