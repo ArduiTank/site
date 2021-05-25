@@ -283,6 +283,7 @@
 					<h3>Attention !!!</h3>
 					<p>Les images du site (l'aperçu) prendra une autre tournure le 28/05/2021 à minuit précisément !</p>
 					<p class="counter">Soit dans : 
+						<span class="d"></span> j
 						<span class="h"></span> h
 						<span class="m"></span> m
 						<span class="s"></span> s
@@ -1959,7 +1960,9 @@
 				var seconds = diff % 60;
 				var minutes = Math.floor(diff%3600 / 60);
 				var hours = Math.floor(diff%86400 / 3600);
+				var days = Math.floor(diff / (60 * 60 * 24));
 				
+				$('.counter .d').html(days);
 				$('.counter .h').html(hours<10?"0"+hours:hours);
 				$('.counter .m').html(minutes<10?"0"+minutes:minutes);
 				$('.counter .s').html(seconds<10?"0"+seconds:seconds);
