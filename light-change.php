@@ -20,6 +20,7 @@
         if(isset($_GET["b"])) {
 			$blue = $_GET["b"];
 		}
-		$query = $pdo->query("UPDATE `lampes` SET `name`='$name1',`red`='$red',`green`='$green',`blue`='$blue' WHERE 1");
+		$query = "UPDATE `lampes` SET `name`='$name1',`red`='$red',`green`='$green',`blue`='$blue' WHERE 1";
+		$conn->query($query);
 	}
 ?>
