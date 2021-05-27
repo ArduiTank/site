@@ -188,7 +188,7 @@
 			font-size: 18px;
 			border: none;
 			outline: none;
-			background-color: rgba(255, 255, 255, 0.5);
+			background-color: rgba(0, 100, 104, 0.5);
 			color: white;
 			cursor: pointer;
 			padding: 5px;
@@ -200,7 +200,7 @@
 		}
 
 		#scroll_to_top:hover {
-			background-color: rgba(255, 255, 255, 0.8);
+			background-color: rgba(23, 161, 165, 0.8);
 		}
 	</style>
 
@@ -1659,26 +1659,26 @@
 						</div>
 					</div>
 				</div>
-				<h3></h3>
+				<h4>Séance vidéos & photos</h4>
 				<div class="tile is-ancestor">
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
 							<figure class="image">
-								<img src="https://cdn.discordapp.com/attachments/807610088361164810/815989414374801418/unknown.png" alt="Modélisation 3D couvercle tourelle">
+								<img src="https://floriantonin.be/arduitank/img/DSC00645.JPG" alt="Photo">
 							</figure>
 						</div>
 					</div>
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
 							<figure class="image">
-								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816044532713914378/IMG_20210301_212914.jpg" alt="Modélisation 3D tourelle/canon">
+							<img src="https://floriantonin.be/arduitank/img/DSC00649.JPG" alt="Photo">
 							</figure>
 						</div>
 					</div>
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
 							<figure class="image">
-								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816049570067775549/IMG_20210301_214911.jpg" alt="Bague de maintient">
+								<img src="https://floriantonin.be/arduitank/img/DSC00650.JPG" alt="Photo">
 							</figure>
 						</div>
 					</div>
@@ -1687,7 +1687,99 @@
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
 							<figure class="image">
-								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816069808742203442/IMG_20210301_230940.jpg" alt="Maintient flancs et canon">
+								<img src="https://floriantonin.be/arduitank/img/DSC00653.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+							<img src="https://floriantonin.be/arduitank/img/DSC00654.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00656.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00657.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+							<img src="https://floriantonin.be/arduitank/img/DSC00660.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00661.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00662.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+							<img src="https://floriantonin.be/arduitank/img/DSC00663.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00665.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00666.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+							<img src="https://floriantonin.be/arduitank/img/DSC00667.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00668.JPG" alt="Photo">
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://floriantonin.be/arduitank/img/DSC00669.JPG" alt="Photo">
 							</figure>
 						</div>
 					</div>
