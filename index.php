@@ -66,29 +66,23 @@
 		}
 
 		/* The images used for background */
-		.background-2Dplan-robot {
-			background-image: url(http://arduitank.be/img/banner.png);
-		}
-		.background-model3D-chain {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/812692985631735839/IMG_20210220_152752.jpg);
-		}
-		.background-blank-1chain {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/814903576932515850/IMG_20210226_175338.jpg);
-		}
-		.background-2blanks-1chain {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/812778846465949696/IMG_20210220_211229.jpg);
-		}
-		.background-2blanks-board {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/813182685450338346/IMG_20210221_235425.jpg);
-		}
-		.background-2blanks-board-chain {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/813182755088236544/IMG_20210221_235529.jpg);
-		}
-		.background-2blanks-board-reverse {
+		.header {
 			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/813182836126253116/IMG_20210221_235648.jpg);
 		}
-		.background-base-missing-2planks {
-			background-image: url(https://cdn.discordapp.com/attachments/807610088361164810/813909999154888724/IMG_20210223_235513.jpg);
+		.infos-to-staff {
+			background-image: url(https://floriantonin.be/arduitank/img/DSC00660.JPG);
+		}
+		.staff-to-news {
+			background-image: url(https://floriantonin.be/arduitank/img/DSC00649.JPG);
+		}
+		.news-to-galery {
+			background-image: url(https://floriantonin.be/arduitank/img/DSC00645.JPG);
+		}
+		.galery-to-stats {
+			background-image: url(https://floriantonin.be/arduitank/img/DSC00667.JPG);
+		}
+		.stats-to-contact {
+			background-image: url(https://floriantonin.be/arduitank/img/DSC00661.JPG);
 		}
 
 		/* Colors */
@@ -261,7 +255,7 @@
 			include("include/header.php");
 		?>
 	
-		<div class="hero-body background-banner background-2blanks-board-reverse">
+		<div class="hero-body background-banner header">
 			<!--<div class="container has-text-centered">
 				<p class="title" style="color: hsl(0, 0%, 21%)!important; font-size: 5rem; padding: 10rem 0 10rem 0;">
 					ArduiTank
@@ -332,7 +326,7 @@
 			</div>
 		</div>
 
-		<div class="hero-body background-banner background-blank-1chain">
+		<div class="hero-body background-banner infos-to-staff">
 		</div>
 		
 		<div class="hero-body" id="equipe">
@@ -391,7 +385,7 @@
 			</div>
 		</div>
 
-		<div class="hero-body background-banner background-base-missing-2planks">
+		<div class="hero-body background-banner staff-to-news">
 		</div>
 		
 		<div class="hero-body" id="actu">
@@ -1282,7 +1276,7 @@
 			</div>
 		</div>
 
-		<div class="hero-body background-banner background-2blanks-1chain">
+		<div class="hero-body background-banner news-to-galery">
 		</div>
 		
 		<div class="hero-body" id="galerie">
@@ -1674,7 +1668,7 @@
 			</div>
 		</div>
 
-		<div class="hero-body background-banner background-2blanks-board">
+		<div class="hero-body background-banner galery-to-stats">
 		</div>
 		
 		<div class="hero-body" id="stats">
@@ -1744,7 +1738,7 @@
 			</div>
 		</div>
 
-		<div class="hero-body background-banner background-2blanks-board-chain">
+		<div class="hero-body background-banner stats-to-contact">
 		</div>
 		
 		<div class="hero-body" id="contact">
