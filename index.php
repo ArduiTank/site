@@ -1919,9 +1919,9 @@
 			}
 			// Change background navbar
 			if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060) {
-				document.getElementById("navbarid").style.backgroundColor = "rgba(84, 84, 84, 0.75)";
+				document.getElementById("navbarid").style.backgroundColor = "rgba(0, 100, 104, 0.75)";
 			} else {
-				document.getElementById("navbarid").style.backgroundColor = "rgba(54, 54, 54, 1)";
+				document.getElementById("navbarid").style.backgroundColor = "rgba(0, 100, 104, 1)";
 			}
 		}
 
