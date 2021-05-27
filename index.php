@@ -145,7 +145,7 @@
 		}
 
 		.hero-foot {
-			background-color: #545454;
+			background-color: #17A1A5;
 		}
 
 		/* Layout */
