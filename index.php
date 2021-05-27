@@ -1786,7 +1786,7 @@
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
 							<figure class="image">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/F7hCh6gzTxs" title="PUB ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="100%" height="23rem" style="height: 23rem;" src="https://www.youtube.com/embed/F7hCh6gzTxs" title="PUB ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</figure>
 						</div>
 					</div>
