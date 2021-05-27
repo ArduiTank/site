@@ -91,7 +91,7 @@
 			transition: 0.8s ease-out;
 		}
 		.navbar-dropdown {
-			background-color: rgba(74, 74, 74, 0.9);
+			background-color: rgba(23, 161, 165, 0.9);
 		}
 		.navbar-link {
 			color: rgba(245,245,245,1)!important;
@@ -100,7 +100,7 @@
 			background-color: #006468;
 		}
 		.navbar-dropdown.drop2 a.navbar-item {
-			background-color: #545454;
+			background-color: #17A1A5;
 		}
 		.navbar-link:not(.is-arrowless)::after {
 			border-color: #00b89c;
@@ -116,7 +116,7 @@
 			color: white;
 		}
 		.dropdown-menu.drop2 {
-			background-color: #545454;
+			background-color: #17A1A5;
 			margin-left: 150px;
 			margin-top: -44px;
 		}
