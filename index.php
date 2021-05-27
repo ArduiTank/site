@@ -274,14 +274,6 @@
 					Informations
 				</h1>
 				<div class="content is-large">
-					<h3>Attention !!!</h3>
-					<p>Les images du site (l'aperçu) prendra une autre tournure le 28/05/2021 à minuit précisément !</p>
-					<p class="counter">Soit dans : 
-						<span class="d"></span> j
-						<span class="h"></span> h
-						<span class="m"></span> m
-						<span class="s"></span> s
-					</p>
 					<p>Pensez à rafraichir le site au moment voulu !</p>
 					<h3>Qui sommes-nous ?</h3>
 					<p>Nous sommes en 2ème année en école supérieure en automatisation. Dans le cadre du cours de robotique, nous avons décidé de faire un tank télécommandé.</p>
