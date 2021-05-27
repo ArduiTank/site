@@ -1659,6 +1659,39 @@
 						</div>
 					</div>
 				</div>
+				<h3></h3>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://cdn.discordapp.com/attachments/807610088361164810/815989414374801418/unknown.png" alt="Modélisation 3D couvercle tourelle">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816044532713914378/IMG_20210301_212914.jpg" alt="Modélisation 3D tourelle/canon">
+							</figure>
+						</div>
+					</div>
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816049570067775549/IMG_20210301_214911.jpg" alt="Bague de maintient">
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tile is-ancestor">
+					<div class="tile is-parent is-horizontal">
+						<div class="tile is-child">
+							<figure class="image">
+								<img src="https://cdn.discordapp.com/attachments/807610088361164810/816069808742203442/IMG_20210301_230940.jpg" alt="Maintient flancs et canon">
+							</figure>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -1921,7 +1954,7 @@
 			}
 			// Change background navbar
 			if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060) {
-				document.getElementById("navbarid").style.backgroundColor = "rgba(0, 100, 104, 0.75)";
+				document.getElementById("navbarid").style.backgroundColor = "rgba(0, 100, 104, 0.7)";
 			} else {
 				document.getElementById("navbarid").style.backgroundColor = "rgba(0, 100, 104, 1)";
 			}
