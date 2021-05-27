@@ -1659,7 +1659,7 @@
 						</div>
 					</div>
 				</div>
-				<h4>Séance vidéos & photos</h4>
+				<h4 class="title is-4">Séance vidéos & photos</h4>
 				<div class="tile is-ancestor">
 					<div class="tile is-parent is-horizontal">
 						<div class="tile is-child">
