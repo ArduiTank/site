@@ -97,7 +97,7 @@
 			color: rgba(245,245,245,1)!important;
 		}
 		.navbar-item.has-dropdown:hover .navbar-link {
-			background-color: #363636;
+			background-color: #006468;
 		}
 		.navbar-dropdown.drop2 a.navbar-item {
 			background-color: #545454;
@@ -141,7 +141,7 @@
 			color: #3273dc!important;
 		}
 		p a.is-link:hover {
-			color: #363636!important;
+			color: #006468!important;
 		}
 
 		.hero-foot {
