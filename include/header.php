@@ -1,5 +1,5 @@
         <div class="hero-head">
-			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid" style="background-color: rgba(54, 54, 54, 1);">
+			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid" style="background-color: rgba(0, 100, 104, 1);">
 				<div class="container">
 					<div class="navbar-brand">
 						<a class="navbar-item" href="./">
