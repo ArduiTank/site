@@ -105,6 +105,9 @@
 		.navbar-link:not(.is-arrowless)::after {
 			border-color: #00b89c;
 		}
+		.hero.is-dark a.navbar-item:hover {
+    		background-color: #006468;
+		}
 
 		.dropdown-menu.drop2 a:hover {
 			color: gray;
