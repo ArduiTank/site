@@ -277,7 +277,6 @@
 					Informations
 				</h1>
 				<div class="content is-large">
-					<p>Pensez à rafraichir le site au moment voulu !</p>
 					<h3>Qui sommes-nous ?</h3>
 					<p>Nous sommes en 2ème année en école supérieure en automatisation. Dans le cadre du cours de robotique, nous avons décidé de faire un tank télécommandé.</p>
 					<p>Nous ne nous limitons pas qu'à la programmation en C/C++ (Arduino) comme demandé, en effet nous développons aussi une application pour ordinateur ainsi que le site sur lequel vous vous trouvez actuellement.</p>
