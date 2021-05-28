@@ -2,6 +2,7 @@
 <html lang="fr" style="overflow-y: auto; scroll-behavior: smooth;">
 <head>
 	<?php
+		$pageTitle = 'Accueil';
 		include("include/navbar.php");
 	?>
 
