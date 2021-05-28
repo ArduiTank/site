@@ -399,9 +399,26 @@
 					<p style="padding: 0 18px;">Petit pincement au coeur pour ce projet qui existe depuis octobtre~novembre 2020.</p>
 					<p style="padding: 0 18px;">Nous avons fait un groupe dont chacun a eu des spécificités à ajouter au projet. Rare sont les groupes qui avancent si bien avec un si bon esprit et une bonne communication et organisation.</p>
 					<p style="padding: 0 18px;">Nous avons fini le projet mais qui sait... peut-être que l'on le continuera encore un peu.</p>
-					<p style="padding: 0 18px 2rem 18px;">En tout cas, de futures vidéos sont à venir (une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
+					<p style="padding: 0 18px;">En tout cas, de futures vidéos sont à venir (une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
+					<p style="padding: 0 18px;">Entre temps, nous avons mis notre shooting photos/vidéos et les montages intégrés au PowerPoint (également juste là) dans la section <a class="navbar-item" href="./#shooting">galerie</a>.</p>
+					<div class="tile is-ancestor" style="padding: 0 0 2rem 0;">
+						<div class="tile is-parent is-horizontal">
+							<div class="tile is-child">
+								<figure class="image">
+									<iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/F7hCh6gzTxs" title="PUB ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+								</figure>
+							</div>
+							<div class="tile is-child">
+								<figure class="image">
+									<iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/ZeS8mETbOeg" title="Intro C'est pas sorcier ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</figure>
+							</div>
+						</div>
+					</div>
 				</div>
-				<p>Arrive bientôt...</p>
+				<div class="content is-large">
+					<p>Arrive bientôt...</p>
+				</div>
 				<button type="button" class="collapsible" id="01032021-4">01/03/2021 - Impression 3D - Maintient tourelle et pièce amovible flancs et canon</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Pour avoir un assez bon roulement tout en ayant un bon maintient de toute la tourelle, nous avons modélisé et imprimé en 3D une bague.</p>
@@ -1278,7 +1295,9 @@
 					<p style="padding: 0 18px;">En voici un petit aperçu :</p>
 					<img style="padding: 0 18px 2rem 18px;" width="50%" src="https://cdn.discordapp.com/attachments/807610088361164810/809154787739566150/unknown.png">
 				</div>
-				<p>Arrive bientôt...</p>
+				<div class="content is-large">
+					<p>Arrive bientôt...</p>
+				</div>
 			</div>
 		</div>
 
