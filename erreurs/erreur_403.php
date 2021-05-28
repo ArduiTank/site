@@ -19,7 +19,7 @@
 						Erreur 403
 					</h1>
 					<h2 class="subtitle is-3">
-            L'accès à cette page vous à été refusé. Si vous pensez que c'est une erreur, merci de contacter un administrateur.
+            			L'accès à cette page vous à été refusé. Si vous pensez que c'est une erreur, merci de contacter un administrateur.
 					</h2>
 				</div>
 				<div class="container">
