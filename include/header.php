@@ -37,7 +37,7 @@
 	<meta name="dcterms.description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé." class="next-head">
 	
 	<!-- Bulma Version 0.7.4-->
-	<link rel="stylesheet" href="https://unpkg.com/bulma@0.7.4/css/bulma.min.css" />
+	<link rel="stylesheet" href="/css/bulma_0.7.4_modif.css" />
 	<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 	
 	<!-- Bootstrap Version 5.0.0 beta 1 -->
