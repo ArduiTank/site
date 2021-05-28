@@ -26,7 +26,7 @@
 		</section>
 
 		<?php
-			include("include/footer.php");
+			include("../include/footer.php");
 		?>
 	</section>
 </body>
