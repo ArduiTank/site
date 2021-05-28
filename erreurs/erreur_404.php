@@ -24,6 +24,7 @@
 				</div>
 				<div class="container">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<button class="button is-danger is-outlined"><a href="/#header-id">Retour à l'accueil</a></button>
 				</div>
 			</div>
 		</section>
