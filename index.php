@@ -312,7 +312,7 @@
 					<p>Dans cette section, vous pouvez admirer l'avancée du projet !</p>
 					<p>Vous pouvez voir toutes les étapes à la réalisation du robot.</p>
 				</div>
-				<button type="button" class="collapsible" id="28052021-2">28/05/2021 - Site - Restructuration & Page d'erreur.</button>
+				<button type="button" class="collapsible" id="28052021-2">28/05/2021 - Site - Restructuration & Page d'erreurs</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Erreur 404, oups. Vous l'avez certainement déjà eue !</p>
 					<p style="padding: 0 18px;">Différentes pages d'erreurs on été faite (401, 403, 404, 500).</p>
