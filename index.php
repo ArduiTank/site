@@ -258,7 +258,7 @@
 <body>
 	<section class="hero is-dark is-fullheight">
 		<?php
-			include("include/header.php");
+			include("include/navbar.php");
 		?>
 	
 		<div class="hero-body background-banner header">
