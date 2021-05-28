@@ -251,6 +251,9 @@
 							<a class="navbar-item" href="./#contact">
 								Contact
 							</a>
+							<a class="navbar-item has-text-white" href="https://github.com/ArduiTank" target="_blank">
+								<i class="fab fa-github" aria-hidden="true" style="width: 1.5em; height: auto;"></i>
+							</a>
 							<a class="navbar-item has-text-white" href="https://discord.gg/D77Vxmehk7" target="_blank">
 								<i class="fab fa-discord" aria-hidden="true" style="width: 1.5em; height: auto;"></i>
 							</a>
