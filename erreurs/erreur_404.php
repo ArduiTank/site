@@ -23,7 +23,7 @@
 					</h2>
 				</div>
 				<div class="container">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" style="height: 1;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
