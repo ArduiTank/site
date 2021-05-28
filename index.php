@@ -43,42 +43,6 @@
 		}
 
 		/* Colors */
-		nav.navbar {
-			/*background-color: rgba(84, 84, 84, 1)!important;*/
-			transition: 0.8s ease-out;
-		}
-		.navbar-dropdown {
-			background-color: rgba(23, 161, 165, 0.9);
-		}
-		.navbar-link {
-			color: rgba(245,245,245,1)!important;
-		}
-		.navbar-item.has-dropdown:hover .navbar-link {
-			background-color: #006468;
-		}
-		.navbar-dropdown.drop2 a.navbar-item {
-			background-color: #17A1A5;
-		}
-		.navbar-link:not(.is-arrowless)::after {
-			border-color: #00b89c;
-		}
-		.hero.is-dark a.navbar-item:hover {
-    		background-color: #006468;
-		}
-
-		.dropdown-menu.drop2 a:hover {
-			color: gray;
-		}
-		.dropdown-menu.drop2 a {
-			color: white;
-		}
-		.dropdown-menu.drop2 {
-			background-color: #17A1A5;
-			margin-left: 150px;
-			margin-top: -44px;
-		}
-
-
 		.content h1, .content h3, .content h5 {
 			color: white;
 		}
