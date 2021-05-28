@@ -214,8 +214,8 @@
 		<?php
 			include("include/navbar.php");
 		?>
-	
-		<div class="hero-body background-banner header" id="header-id">
+		<div id="header-id"></div>
+		<div class="hero-body background-banner header">
 			<!--<div class="container has-text-centered">
 				<p class="title" style="color: hsl(0, 0%, 21%)!important; font-size: 5rem; padding: 10rem 0 10rem 0;">
 					ArduiTank
