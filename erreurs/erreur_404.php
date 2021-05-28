@@ -26,7 +26,7 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
-			<button class="button is-white is-outlined"><a href="/#header-id">Retour à l'accueil</a></button>
+			<button class="button is-white is-outlined is-3"><a href="/#header-id">Retour à l'accueil</a></button>
 		</section>
 
 		<?php
