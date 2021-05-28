@@ -3,7 +3,7 @@
 <head>
 	<?php
 		$pageTitle = 'Accueil';
-		include("include/navbar.php");
+		include("include/header.php");
 	?>
 
 	<style>
