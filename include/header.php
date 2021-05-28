@@ -31,8 +31,18 @@
 							<div class="navbar-item has-dropdown is-hoverable" href="./#actu">
 								<a class="navbar-link">
 									Actualités
-								</a>		
+								</a>
 								<div class="navbar-dropdown">
+									<div class="navbar-item dropdown is-hoverable">
+										<a class="navbar-link dropdown-trigger is-fullwidth"  style="width: 100%;">
+											28/05/2021 - Fin
+										</a>
+										<div class="dropdown-menu drop2">
+											<a class="navbar-item" href="./#28052021-1">
+												Fin du projet (Snif)
+											</a>
+										</div>
+									</div>
 									<div class="navbar-item dropdown is-hoverable">
 										<a class="navbar-link dropdown-trigger is-fullwidth"  style="width: 100%;">
 											01/03/2021
