@@ -1,25 +1,36 @@
-<?php
-$pageTitle = 'Accès refusé !';
+<!DOCTYPE html>
+<html lang="fr" style="overflow-y: auto; scroll-behavior: smooth;">
+<head>
+	<?php
+		$pageTitle = 'Accès refusé !';
+		include("../include/header.php");
+	?>
+</head>
+<body>
+	<section class="hero is-dark is-fullheight">
+		<?php
+			include("../include/navbar.php");
+		?>
+		<section class="hero is-danger" style="padding-top: 100px;">
+			<div class="hero-body">
+				<div class="container" style="padding: 0 0 0 25rem;">
+					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="auto" width="300px" style="padding: 0 0 3rem 0;">
+					<h1 class="title is-1">
+						Erreur 403
+					</h1>
+					<h2 class="subtitle is-3">
+            L'accès à cette page vous à été refusé. Si vous pensez que c'est une erreur, merci de contacter un administrateur.
+					</h2>
+				</div>
+				<div class="container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<button class="button is-white is-outlined"><a href="/#header-id">Retour à l'accueil</a></button>
+		</section>
 
-include('../include/head.php');
-include('../include/nav.php');
- ?>
- <section class="hero is-light" style="padding-top: 100px;">
-   <div class="hero-body is-marginless is-paddingless">
-     <div class="container">
-       <img class="image is-4by4" src="../img/logo_transparent.png" height="300px" width="300px">
-     </div>
-   </div>
- </section>
- <section class="hero is-danger">
-   <div class="hero-body">
-     <div class="container">
-       <h1 class="title">
-         Erreur 403
-       </h1>
-       <h2 class="subtitle">
-         L'accès à cette page vous à été refusé. Si vous pensez que c'est une erreur, merci de contacter un administrateur.
-       </h2>
-     </div>
-   </div>
- </section>
+		<?php
+			include("../include/footer.php");
+		?>
+	</section>
+</body>
