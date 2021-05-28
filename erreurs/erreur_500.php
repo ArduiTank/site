@@ -1,25 +1,36 @@
-<?php
-$pageTitle = 'Merci d\'actualiser la page.';
+<!DOCTYPE html>
+<html lang="fr" style="overflow-y: auto; scroll-behavior: smooth;">
+<head>
+	<?php
+		$pageTitle = 'Merci d\'actualiser la page.';
+		include("../include/header.php");
+	?>
+</head>
+<body>
+	<section class="hero is-dark is-fullheight">
+		<?php
+			include("../include/navbar.php");
+		?>
+		<section class="hero is-danger" style="padding-top: 100px;">
+			<div class="hero-body">
+				<div class="container" style="padding: 0 5rem 0 25rem;">
+					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="auto" width="300px" style="padding: 0 0 3rem 0;">
+					<h1 class="title is-1">
+						Erreur 500
+					</h1>
+					<h2 class="subtitle is-3">
+						Merci d'actualiser la page. Si le problème persiste, contactez un administrateur.
+					</h2>
+				</div>
+				<div class="container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo?autoplay=1" title="Johnny Crying - Super Quenouille" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<button class="button is-white is-outlined title is-4"><a href="/#header-id">Retour à l'accueil</a></button>
+		</section>
 
-include('../include/head.php');
-include('../include/nav.php');
- ?>
- <section class="hero is-light" style="padding-top: 100px;">
-   <div class="hero-body is-marginless is-paddingless">
-     <div class="container">
-       <img class="image is-4by4" src="../img/logo_transparent.png" height="300px" width="300px">
-     </div>
-   </div>
- </section>
- <section class="hero is-danger">
-   <div class="hero-body">
-     <div class="container">
-       <h1 class="title">
-         Erreur 500
-       </h1>
-       <h2 class="subtitle">
-         Merci d'actualiser la page. Si le problème persiste, contactez un administrateur.
-       </h2>
-     </div>
-   </div>
- </section>
+		<?php
+			include("../include/footer.php");
+		?>
+	</section>
+</body>
