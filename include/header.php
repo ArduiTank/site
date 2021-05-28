@@ -36,12 +36,15 @@
 	<meta name="dcterms.identifier" content="https://arduitank.be" class="next-head" />
 	<meta name="dcterms.description" content="Bienvenue sur le site d'ArduiTank. Equipe de projet pour char robotisé et télécommandé." class="next-head">
 	
-	<!-- Bulma Version 0.7.4-->
+	<!-- Bulma Version 0.7.4 -->
 	<link rel="stylesheet" href="/css/bulma_0.7.4_modif.css" />
 	<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
 	
 	<!-- Bootstrap Version 5.0.0 beta 1 -->
 	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">-->
+    
+    <!-- CSS custom - Navbar -->
+	<link rel="stylesheet" href="/css/navbar.css" />
 
 	<!-- Fonts | Emotes -->
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
