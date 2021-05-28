@@ -3,13 +3,13 @@
 <head>
 	<?php
 		$pageTitle = 'Cette page n\'existe pas !';
-		include("include/header.php");
+		include("../include/header.php");
 	?>
 </head>
 <body>
 	<section class="hero is-dark is-fullheight">
 		<?php
-			include("include/navbar.php");
+			include("../include/navbar.php");
 		?>
 		<section class="hero is-light" style="padding-top: 100px;">
 			<div class="hero-body is-marginless is-paddingless">
