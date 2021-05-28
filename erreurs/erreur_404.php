@@ -14,7 +14,7 @@
 		<section class="hero is-light" style="padding-top: 100px;">
 			<div class="hero-body is-marginless is-paddingless">
 				<div class="container">
-					<img class="image is-4by4" src="../img/logo_transparent.png" height="300px" width="300px">
+					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="300px" width="auto">
 				</div>
 			</div>
 		</section>
