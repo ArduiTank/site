@@ -2,7 +2,7 @@
 			<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarid" style="background-color: rgba(0, 100, 104, 1);">
 				<div class="container">
 					<div class="navbar-brand">
-						<a class="navbar-item" href="./">
+						<a class="navbar-item" href="/#header-id">
 							<img src="/img/Logo%20V2.2%20min.png" width="50" style="max-height: 100%;">
 						</a>
 			
@@ -19,7 +19,7 @@
 			
 					<div id="navbarBasicExample" class="navbar-menu">
 						<div class="navbar-start">
-							<a class="navbar-item" href="/#navbarid">
+							<a class="navbar-item" href="/#header-id">
 								Accueil
 							</a>
 							<a class="navbar-item" href="/#informations">
