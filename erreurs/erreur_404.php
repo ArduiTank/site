@@ -14,13 +14,11 @@
 		<section class="hero is-danger" style="padding-top: 100px;">
 			<div class="hero-body">
 				<div class="container">
-					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="300px" width="auto">
-				</div>
-				<div class="container">
-					<h1 class="title">
+					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="200px" width="auto">
+					<h1 class="title is-1">
 						Erreur 404
 					</h1>
-					<h2 class="subtitle">
+					<h2 class="subtitle is-3">
 						Cette page n'existe pas :/
 					</h2>
 				</div>
