@@ -3,7 +3,7 @@
 				<div class="container">
 					<div class="navbar-brand">
 						<a class="navbar-item" href="./">
-							<img src="../img/Logo V2.2 min.png" width="50" style="max-height: 100%;">
+							<img src="https://arduitank.be/img/Logo%20V2.2%20min.png" width="50" style="max-height: 100%;">
 						</a>
 			
 						<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -22,7 +22,7 @@
 							<a class="navbar-item" href="./">
 								Accueil
 							</a>
-							<a class="navbar-item" href="./#informations">
+							<a class="navbar-item" href="/index.php#informations">
 								Informations
 							</a>
 							<a class="navbar-item" href="./#equipe">
