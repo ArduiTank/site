@@ -242,9 +242,6 @@
 									</div>
 								</div>
 							</div>
-							<a class="navbar-item" href="./#galerie">
-								Galerie
-							</a>
 							<div class="navbar-item has-dropdown is-hoverable">
 								<a class="navbar-link" href="./#galerie">
 									Galerie
