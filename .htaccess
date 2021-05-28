@@ -1,0 +1,6 @@
+ErrorDocument 401 /erreurs/erreur_401.php
+ErrorDocument 403 /erreurs/erreur_403.php
+ErrorDocument 404 /erreurs/erreur_404.php
+ErrorDocument 500 /erreurs/erreur_500.php
+ErrorDocument 503 /erreurs/erreur_500.php
+ErrorDocument 504 /erreurs/erreur_500.php
