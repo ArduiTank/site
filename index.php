@@ -49,6 +49,9 @@
 	<!-- Fonts | Emotes -->
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
+	<!-- For the time manage -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 	<style>
 		/* Image for background */
 		.background-banner {
@@ -2098,8 +2101,6 @@
 		}
 	</script>
 
-	<!-- For the time manage -->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<!-- For the time to update the website (28/05/2021) -->
 	<script  type="text/javascript">
 		var target = new Date(2021, 04, 28, 0, 0, 0);
