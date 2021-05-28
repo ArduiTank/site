@@ -2,7 +2,7 @@
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ArduiTank | Accueil</title>
+	<title>ArduiTank | <?php echo $pageTitle ?></title>
 	<meta itemprop="name" content="ArduiTank | Accueil" />
 	<meta name="keywords" content="ArduiTank, Arduino, DIY, bois, 3D, modélisation, ISAT, EPHEC, AntoDB"/>
 
