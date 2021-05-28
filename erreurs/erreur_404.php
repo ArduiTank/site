@@ -13,7 +13,7 @@
 		?>
 		<section class="hero is-danger" style="padding-top: 100px;">
 			<div class="hero-body">
-				<div class="container">
+				<div class="container" style="padding: 0 0 0 25rem;">
 					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="auto" width="300px" style="padding: 0 0 3rem 0;">
 					<h1 class="title is-1">
 						Erreur 404
@@ -21,6 +21,9 @@
 					<h2 class="subtitle is-3">
 						Cette page n'existe pas :/
 					</h2>
+				</div>
+				<div class="container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/yw35BYhKVoo" title="Johnny Crying - Super Quenouille" style="height: 1;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
