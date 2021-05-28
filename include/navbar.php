@@ -38,6 +38,9 @@
 											28/05/2021 - Fin
 										</a>
 										<div class="dropdown-menu drop2">
+											<a class="navbar-item" href="/#28052021-2">
+												Site - Restructuration & Page d'erreurs
+											</a>	
 											<a class="navbar-item" href="/#28052021-1">
 												Fin du projet (Snif)
 											</a>
