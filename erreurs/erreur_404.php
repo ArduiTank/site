@@ -13,7 +13,7 @@
 		?>
 		<section class="hero is-danger" style="padding-top: 100px;">
 			<div class="hero-body">
-				<div class="container" style="padding: 0 0 0 25rem;">
+				<div class="container" style="padding: 0 5rem 0 25rem;">
 					<img class="image is-4by4" src="https://arduitank.be/img/Logo%20V2.2%20min.png" height="auto" width="300px" style="padding: 0 0 3rem 0;">
 					<h1 class="title is-1">
 						Erreur 404
