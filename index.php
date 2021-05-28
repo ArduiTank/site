@@ -391,6 +391,17 @@
 					<p>Dans cette section, vous pouvez admirer l'avancée du projet !</p>
 					<p>Vous pouvez voir toutes les étapes à la réalisation du robot.</p>
 				</div>
+				<button type="button" class="collapsible" id="28052021-1">28/05/2021 - Fin du projet (Snif)</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">Ici s'achève le projet. Il vient d'être clôturer par une chouette présentation devant notre professeur.</p>
+					<p style="padding: 0 18px;">Nous tenions à remercier notre professeur, Monsieur Costa, pour nous avoir suivi dans nos idées, laisser libre à notre imagination !</p>
+					<p style="padding: 0 18px;">Une phrase que nous retiendrons pendant longtemps, nous ayant touché lors de la présentation du projet fini, dite par notre professeur : "Vous avez été au-delà de mes espérances."</p>
+					<p style="padding: 0 18px;">Petit pincement au coeur pour ce projet qui existe depuis octobtre~novembre 2020.</p>
+					<p style="padding: 0 18px;">Nous avons fait un groupe dont chacun a eu des spécificités à ajouter au projet. Rare sont les groupes qui avancent si bien avec un si bon esprit et une bonne communication et organisation.</p>
+					<p style="padding: 0 18px;">Nous avons fini le projet mais qui sait... peut-être que l'on le continuera encore un peu.</p>
+					<p style="padding: 0 18px 2rem 18px;">En tout cas, de futures vidéos sont à venir (une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
+				</div>
+				<p>Arrive bientôt...</p>
 				<button type="button" class="collapsible" id="01032021-4">01/03/2021 - Impression 3D - Maintient tourelle et pièce amovible flancs et canon</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Pour avoir un assez bon roulement tout en ayant un bon maintient de toute la tourelle, nous avons modélisé et imprimé en 3D une bague.</p>
@@ -1267,6 +1278,7 @@
 					<p style="padding: 0 18px;">En voici un petit aperçu :</p>
 					<img style="padding: 0 18px 2rem 18px;" width="50%" src="https://cdn.discordapp.com/attachments/807610088361164810/809154787739566150/unknown.png">
 				</div>
+				<p>Arrive bientôt...</p>
 			</div>
 		</div>
 
