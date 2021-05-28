@@ -332,12 +332,12 @@
 						<div class="tile is-parent is-horizontal">
 							<div class="tile is-child">
 								<figure class="image">
-									<iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/F7hCh6gzTxs" title="PUB ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+									<iframe width="100%" height="300px" src="https://www.youtube.com/embed/F7hCh6gzTxs" title="PUB ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 								</figure>
 							</div>
 							<div class="tile is-child">
 								<figure class="image">
-									<iframe width="1920px" height="1080px" src="https://www.youtube.com/embed/ZeS8mETbOeg" title="Intro C'est pas sorcier ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="300px" src="https://www.youtube.com/embed/ZeS8mETbOeg" title="Intro C'est pas sorcier ArduiTank" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</figure>
 							</div>
 						</div>
