@@ -245,6 +245,17 @@
 							<a class="navbar-item" href="./#galerie">
 								Galerie
 							</a>
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link" href="./#galerie">
+									Galerie
+								</a>
+
+								<div class="navbar-dropdown">
+									<a class="navbar-item" href="./#shooting">
+										Séance vidéos & photos
+									</a>
+								</div>
+							</div>
 							<a class="navbar-item" href="./#stats">
 								Statistiques
 							</a>
