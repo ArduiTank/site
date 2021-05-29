@@ -321,13 +321,13 @@
 				<button type="button" class="collapsible" id="28052021-1">28/05/2021 - Fin du projet (Snif)</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Ici s'achève le projet. Il vient d'être clôturer par une chouette présentation devant notre professeur.</p>
-					<p style="padding: 0 18px;">Nous tenions à remercier notre professeur, Monsieur Costa, pour nous avoir suivi dans nos idées, laisser libre à notre imagination !</p>
+					<p style="padding: 0 18px;">Nous tenions à remercier notre professeur, Monsieur Costa, pour nous avoir suivi dans nos idées, laisser libre cours à notre imagination !</p>
 					<p style="padding: 0 18px;">Une phrase que nous retiendrons pendant longtemps, nous ayant touché lors de la présentation du projet fini, dite par notre professeur : "Vous avez été au-delà de mes espérances."</p>
-					<p style="padding: 0 18px;">Petit pincement au coeur pour ce projet qui existe depuis octobtre~novembre 2020.</p>
-					<p style="padding: 0 18px;">Nous avons fait un groupe dont chacun a eu des spécificités à ajouter au projet. Rare sont les groupes qui avancent si bien avec un si bon esprit et une bonne communication et organisation.</p>
+					<p style="padding: 0 18px;">Petit pincement au coeur pour ce projet qui existe depuis octobtre~novembre 2020 (soit bien avant le départ officiel).</p>
+					<p style="padding: 0 18px;">Nous avons fait un groupe dont chacun a eu des spécificités à ajouter au projet. Rare sont les groupes qui avancent si bien avec un si bon esprit et une bonne communication et organisation. (Evidemment, tout n'était pas 100% parfait mais on a vite et bien avancé.)</p>
 					<p style="padding: 0 18px;">Nous avons fini le projet mais qui sait... peut-être que l'on le continuera encore un peu.</p>
-					<p style="padding: 0 18px;">En tout cas, de futures vidéos sont à venir (une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
-					<p style="padding: 0 18px;">Entre temps, nous avons mis notre shooting photos/vidéos et les montages intégrés au PowerPoint (également juste là) dans la section <a class="is-link" href="./#shooting">galerie</a>.</p>
+					<p style="padding: 0 18px;">En tout cas, de futures vidéos sont à venir (dont une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
+					<p style="padding: 0 18px;">Entre temps, nous avons mis notre shooting photos/vidéos et les montages intégrés au PowerPoint (également juste en-dessous) dans la section <a class="is-link" href="./#shooting">galerie</a>.</p>
 					<div class="tile is-ancestor" style="padding: 0 18px;">
 						<div class="tile is-parent is-horizontal">
 							<div class="tile is-child">
