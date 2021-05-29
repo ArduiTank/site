@@ -43,12 +43,12 @@
 					[
 						"name" => "Email",
 						"value" => "||$email||",
-						"inline" => true
+						"inline" => false
 					],
 					[
 						"name" => "Message",
 						"value" => "$message",
-						"inline" => true
+						"inline" => false
 					]
 				]
 			]
