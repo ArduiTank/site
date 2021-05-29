@@ -316,7 +316,7 @@
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Erreur 404, oups. Vous l'avez certainement déjà eue !</p>
 					<p style="padding: 0 18px;">Différentes pages d'erreurs on été faites (401, 403, 404, 500).</p>
-					<p style="padding: 0 18px 2rem 18px;">L'occasion rêvée pour séparer notre fichier principal avec un include de header et des fichiers CSS (plus tout intégrer dans un même fichier).</p>
+					<p style="padding: 0 18px 2rem 18px;">L'occasion rêvée pour séparer notre fichier principal avec un include de header et des fichiers CSS (plus tout intégré dans un même fichier).</p>
 				</div>
 				<button type="button" class="collapsible" id="28052021-1">28/05/2021 - Fin du projet (Snif)</button>
 				<div class="content collapse is-medium">
