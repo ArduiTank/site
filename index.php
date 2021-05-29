@@ -328,7 +328,7 @@
 					<p style="padding: 0 18px;">Nous avons fini le projet mais qui sait... peut-être que l'on le continuera encore un peu.</p>
 					<p style="padding: 0 18px;">En tout cas, de futures vidéos sont à venir (une qui était prévue pour la présentation mais malheureusement, nous n'avous pas eu le temps pour monter cette 3ème vidéo).</p>
 					<p style="padding: 0 18px;">Entre temps, nous avons mis notre shooting photos/vidéos et les montages intégrés au PowerPoint (également juste là) dans la section <a class="is-link" href="./#shooting">galerie</a>.</p>
-					<div class="tile is-ancestor" style="padding: 0 18px 2rem 18px;">
+					<div class="tile is-ancestor" style="padding: 0 18px;">
 						<div class="tile is-parent is-horizontal">
 							<div class="tile is-child">
 								<figure class="image">
@@ -342,6 +342,7 @@
 							</div>
 						</div>
 					</div>
+					<p style="padding: 0 18px 2rem 18px;">Nous tenions également à vous remerciez ! Que vous nous suivez depuis le début ou que vous soyez juste de passage, merci d'avoir pris le temps de nous suivre !</p>
 				</div>
 				<div class="content is-large">
 					<p>Arrive bientôt...</p>
