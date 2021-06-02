@@ -266,7 +266,7 @@
 					<div class="column">
 						<center style="margin-bottom: 1rem;">
 							<figure class="image is-64x64">
-								<img src="https://cdn.discordapp.com/avatars/693118212711251968/425e975a36d40888a3449d93e36f02ff.png" class="image is-64x64 is-rounded">
+								<img src="https://cdn.discordapp.com/avatars/693118212711251968/c687df4818f2f0a24ebed85ced3d0bb5.png" class="image is-64x64 is-rounded">
 							</figure>
 							<br/>
 							<p class="title is-5" style="font-weight: normal;">
