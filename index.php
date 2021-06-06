@@ -1901,7 +1901,7 @@
 						<div class="field-body">
 							<div class="field">
 								<div class="control has-text-centered response">
-									<button class="button has-background-grey-dark has-text-white" type="submit" class="submit">
+									<button class="button has-background-grey-dark has-text-white" type="submit" class="submit" id="submit">
 										Envoyer
 									</button>
 								</div>
@@ -2060,6 +2060,13 @@
 			update();
 		});
 
+	</script>
+
+	<!-- Form -->
+	<script>
+		/*document.getElementById("submit").addEventListener("click", function(event){
+			event.preventDefault()
+		});*/
 	</script>
 </body>
 </html>
