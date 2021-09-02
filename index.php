@@ -313,6 +313,13 @@
 					<p>Dans cette section, vous pouvez admirer l'avancée du projet !</p>
 					<p>Vous pouvez voir toutes les étapes à la réalisation du robot.</p>
 				</div>
+				<button type="button" class="collapsible" id="21062021-1">21/06/2021 - Shooting photo & vidéo</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">Hé oui ! On est tellement "famousse" (oui on aime les mousses) que l'on est demandé pour un shooting photo/vidéo !</p>
+					<p style="padding: 0 18px;">En fait, on a surtout été le meilleur groupe et pour notre professeur, il était important de promouvoir notre section.</p>
+					<p style="padding: 0 18px;">Nous admirons le geste et sommes très content d'y avoir participé !</p>
+					<p style="padding: 0 18px 2rem 18px;">Nous en garderons de bons souvenirs !</p>
+				</div>
 				<button type="button" class="collapsible" id="28052021-2">28/05/2021 - Site - Restructuration & Page d'erreurs</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Erreur 404, oups. Vous l'avez certainement déjà eue !</p>
