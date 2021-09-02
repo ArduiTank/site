@@ -35,6 +35,16 @@
 								<div class="navbar-dropdown">
 									<div class="navbar-item dropdown is-hoverable">
 										<a class="navbar-link dropdown-trigger is-fullwidth"  style="width: 100%;">
+											01/09/2021
+										</a>
+										<div class="dropdown-menu drop2">
+											<a class="navbar-item" href="/#01092021-1">
+												C'est la rentrée ! (Ou presque)
+											</a>
+										</div>
+									</div>
+									<div class="navbar-item dropdown is-hoverable">
+										<a class="navbar-link dropdown-trigger is-fullwidth"  style="width: 100%;">
 											21/06/2021
 										</a>
 										<div class="dropdown-menu drop2">

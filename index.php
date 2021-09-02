@@ -313,6 +313,28 @@
 					<p>Dans cette section, vous pouvez admirer l'avancée du projet !</p>
 					<p>Vous pouvez voir toutes les étapes à la réalisation du robot.</p>
 				</div>
+				<button type="button" class="collapsible" id="01092021-1">01/09/2021 - C'est la rentrée ! (Ou presque)</button>
+				<div class="content collapse is-medium">
+					<p style="padding: 1rem 18px 0 18px;">C'est la rentrée pour certains mais pas pour les étudiants (enfin pas encore).</p>
+					<p style="padding: 0 18px;">Néanmoins, c'est surtout la sortie de la vidéo ArduiTank !</p>
+					<p style="padding: 0 18px;">Hé oui ! Tant attendue ! Reportée d'un mois car c'est une période qui demande pas mal de montage suite à la communication qui doit être faites pour les portes ouvertes (le 8 septembre de 17h à 20h pour notre section).</p>
+					<p style="padding: 0 18px;">La veille, la vidéo sur YouTube et maintenant sur Facebook et Instagram également !</p>
+					<p style="padding: 0 18px 2rem 18px;">Bon visionnage !</p>
+					<div class="tile is-ancestor" style="padding: 0 18px;">
+						<div class="tile is-parent is-horizontal">
+							<div class="tile is-child">
+								<figure class="image">
+									<iframe width="100%" height="300px" src="https://www.youtube.com/embed/L7LC56odkgU" title="Haute Ecole EPHEC - ARDUITANK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</figure>
+							</div>
+							<div class="tile is-child">
+								<figure class="image">
+									<iframe src="https://www.facebook.com/plugins/video.php?height=295&href=https%3A%2F%2Fwww.facebook.com%2Fephecofficiel%2Fvideos%2F403005611542503%2F&show_text=false&width=560&t=0" width="100%" height="100%" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
 				<button type="button" class="collapsible" id="21062021-1">21/06/2021 - Shooting photo & vidéo</button>
 				<div class="content collapse is-medium">
 					<p style="padding: 1rem 18px 0 18px;">Hé oui ! On est tellement "famousse" (oui on aime les mousses) que l'on est demandé pour un shooting photo/vidéo !</p>
